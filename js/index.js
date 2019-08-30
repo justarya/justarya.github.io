@@ -1,0 +1,10 @@
+$(document).ready(function(){
+  $('.past-work__item').click(function(){
+    $('#popup').show();
+    $('body').css('overflow','hidden');
+  })
+  $('.btn--close').click(function(){
+    $('#popup').hide();
+    $('body').css('overflow','auto');
+  })
+})
